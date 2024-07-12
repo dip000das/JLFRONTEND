@@ -9,9 +9,9 @@ import { Context } from "../../main";
 import { URL } from "../../../url";
 
 const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [role, setRole] = useState("");
+  const [email, setEmail] = useState("jobseeker@gmail.com");
+  const [password, setPassword] = useState("job#1234");
+  const [role, setRole] = useState("Job Seeker");
 
   const { isAuthorized, setIsAuthorized } = useContext(Context);
 
